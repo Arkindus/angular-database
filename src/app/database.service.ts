@@ -10,7 +10,7 @@ export class DatabaseService {
   loadedposts: Posts[] = [];
   url: string;
   constructor(private http: HttpClient) {
-    this.url = 'https://angular-database-c263b-default-rtdb.firebaseio.com/posts';
+    this.url = 'YOUR_REALTIME_FIRESTONE_URL';
   }
 
   addPost(inputTitle: string, inputContent: string) {
